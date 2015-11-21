@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>LiveContent.JS - Demo</title>
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="liveContent.js"></script>
+	<script src="providers.js"></script>
+	<script src="listener.js"></script>
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+	<div class="viewport">
+		<header>
+			<h2>LiveContent.JS</h2>
+			<i>A tool that helps to get live data from URLs by binding remote services (YouTube, Vimeo, etc)</i>
+		</header>
+		<div class="content">
+			<div class="lc-form">
+				<p>Put here video links from YouTube or Vimeo:</p>
+				<input type="text" id="lcLinks" placeholder="Example: https://vimeo.com/0123456"/>
+				<span id="error">This link is not matched by any of provider (Vimeo, YouTube)</span>
+			</div>
+			<span id="ytb-no-key"><b>Warning!</b> YouTube API key is not defined, please add API key in <u>providers.js</u> at line 19</span>
+			<div class="lc-items" id="lcItems">
+				
+			</div>
+		</div>
+		<footer>
+			<span class="lt">
+				2015 - Denis Sedchenko
+			</span>
+			<span class="gt">
+				<a href="https://github.com/odin3/LiveContentJS" target="_blank">Get Source on GitHub</a>
+			</span>
+		</footer>
+	</div>
+</body>
+</html>
