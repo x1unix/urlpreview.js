@@ -1,8 +1,6 @@
-# LiveContent.JS
-###Version 1.0
+# URL Preview
 
-A tool that helps to get live data from URLs by binding remote services (YouTube, Vimeo, etc)
-
+A tool that helps to get data from URLs on pasting URL to input field (YouTube, Vimeo, etc).
 ## Demo
 
 Demo and tutorial are included in repository in 'demo' directory
